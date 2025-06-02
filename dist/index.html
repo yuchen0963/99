@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>空戰英豪</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas" width="800" height="600"></canvas>
+        <div id="hud">
+            分數: <span id="score">0</span><br>
+            生命: <span id="lives">3</span>
+        </div>
+        <div id="gameOverScreen" class="game-overlay">
+            <h2>遊戲結束！</h2>
+            <p>你的最終分數是: <span id="finalScore">0</span></p>
+            <button class="game-button" id="restartButton">重新開始</button>
+        </div>
+         <div id="startScreen" class="game-overlay active">
+            <h2>空戰英豪</h2>
+            <p>準備好翱翔天際了嗎？</p>
+            <button class="game-button" id="startButton">開始遊戲</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
